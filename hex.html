@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorFlipper</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #hex{
+            color:rgb(57, 158, 158) ;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-center">
+            <h4>color flipper</h4>
+            <li>
+                <a href="index.html">simple</a>
+            </li>
+            <li>
+                <a id="hex" href="hex.html">hex</a>
+            </li>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <!-- Text color -->
+            <h2>background color: <span id="color"></span></h2>
+            <!-- Button generate background random -->
+            <button class="btn-generat" id="btn">click here</button>
+        </div>
+    </main>
+    <script src="script2.js"></script>
+</body>
+</html>
